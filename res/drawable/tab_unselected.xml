@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- For tabs at top -->
+ <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:top="2sp" android:left="@dimen/tab_space" android:right="3sp"> 
+		<shape android:shape="rectangle">
+			
+			<gradient android:angle="-90" android:startColor="#c2d7e3"
+			    android:centerColor="#5598c2"
+				android:endColor="#5598c2" />
+			<corners android:radius="@dimen/corner_radius" 
+			    android:topLeftRadius="@dimen/corner_radius" 
+				android:topRightRadius="@dimen/corner_radius" 
+				android:bottomRightRadius="0dp"
+             	android:bottomLeftRadius="0dp"
+             />
+			<stroke android:width="1sp"
+        android:color="#156aa0"/>
+						
+		</shape>
+	</item>
+	<item android:top="26sp" android:bottom="0sp" android:right="3sp"> 
+		<shape android:shape="rectangle">
+			<!-- <solid android:color="#156aa0"/> -->
+			<gradient android:angle="-90" android:startColor="#116fab"
+			    android:centerColor="#2187ca"
+				android:endColor="#2187ca" />
+			<stroke android:width="1sp"
+        android:color="#156aa0"/>
+	</shape>
+		
+	</item>
+</layer-list>
+
+<!-- For tabs at bottom -->
+<!-- <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:top="0sp" android:left="@dimen/tab_space" android:right="@dimen/tab_space"> 
+		<shape android:shape="rectangle">
+			
+			<gradient android:angle="-90" android:startColor="#c2d7e3"
+			    android:centerColor="#5598c2"
+				android:endColor="#5693ba" />
+			<corners android:topLeftRadius="@dimen/corner_radius" 
+				android:topRightRadius="@dimen/corner_radius" />
+			<stroke android:width="1sp"
+        android:color="#156aa0"/>
+						
+		</shape>
+	</item>
+	<item android:top="26sp" android:bottom="0sp" > 
+		<shape android:shape="rectangle">
+			<solid android:color="#156aa0"/>
+			<gradient android:angle="-90" android:startColor="#116fab"
+			    android:centerColor="#116fab"
+				android:endColor="#2187ca" />
+			<stroke android:width="1sp"
+        android:color="#156aa0"/>
+	</shape>
+		
+	</item>
+</layer-list> -->

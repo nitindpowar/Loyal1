@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<style name="app_theme" parent="android:Theme.NoTitleBar">
+		<item name="android:windowBackground">@drawable/app_background</item>
+	</style>	
+	
+	  <!--   
+ <style name="Animation.Activity">
+        <item name="activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="activityCloseExitAnimation">@anim/activity_close_exit</item>
+
+	    </style> -->
+	<style name="styleName" parent="android:Widget.Holo.Light.TextView">
+		<item name="android:textSize">22dp</item>
+	</style>
+</resources> 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- For tabs at top  -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:left="@dimen/tab_space" android:right="3sp"
+	    android:top="2sp"> 
+		<shape android:shape="rectangle">
+			<solid android:color="#feffff"/>
+		    <corners android:radius="@dimen/corner_radius" 
+			    android:topLeftRadius="@dimen/corner_radius" 
+				android:topRightRadius="@dimen/corner_radius" 
+				android:bottomRightRadius="0dp"
+             	android:bottomLeftRadius="0dp" />
+		</shape>
+	</item>
+	<item android:top="26sp" android:bottom="0sp" android:right="3sp">
+		<shape android:shape="rectangle">
+			<solid android:color="#f4fcff" />
+		</shape>
+	</item>
+	<!-- <item android:left="2sp" android:top="3sp"
+                android:right="2sp" android:bottom="2sp" > 
+		<shape android:shape="rectangle">
+			<corners android:bottomLeftRadius="@dimen/corner_radius"
+				android:bottomRightRadius="@dimen/corner_radius" 
+				android:topLeftRadius="@dimen/corner_radius"
+				android:topRightRadius="@dimen/corner_radius"
+				/>
+			<gradient android:angle="-90" android:startColor="#20ffffff"
+				android:endColor="#20ffffff" />
+			
+		</shape>
+	</item> -->
+</layer-list>
+
+<!-- For tabs at bottom -->
+<!-- <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:left="@dimen/tab_space" android:right="@dimen/tab_space"
+	    android:top="0sp"> 
+		<shape android:shape="rectangle">
+			<solid android:color="#feffff"/>
+		    <corners android:topLeftRadius="@dimen/corner_radius" 
+				android:topRightRadius="@dimen/corner_radius" />
+		</shape>
+	</item>
+	draw tab background
+	<item android:top="26sp" android:bottom="0sp" >
+		<shape android:shape="rectangle">
+			<solid android:color="#f4fcff" />
+		</shape>
+	</item>
+	
+	<item android:left="2sp" android:top="3sp"
+                android:right="2sp" android:bottom="2sp" > 
+		<shape android:shape="rectangle">
+			<corners android:bottomLeftRadius="@dimen/corner_radius"
+				android:bottomRightRadius="@dimen/corner_radius" 
+				android:topLeftRadius="@dimen/corner_radius"
+				android:topRightRadius="@dimen/corner_radius"
+				/>
+			<gradient android:angle="-90" android:startColor="#20ffffff"
+				android:endColor="#20ffffff" />
+			
+		</shape>
+	</item>
+</layer-list> -->
