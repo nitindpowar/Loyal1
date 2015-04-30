@@ -20,7 +20,9 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="10dp"
                 android:clickable="true"
-                android:divider="@color/tabDark" />
+                android:divider="@color/themeDarkColor"
+                android:dividerHeight="2dp" 
+                />
         </LinearLayout>
 
         

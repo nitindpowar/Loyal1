@@ -27,6 +27,8 @@
   <color name="viewfinder_laser">#ffff0000</color>
   <color name="viewfinder_mask">#60000000</color>
   <color name="actionBarColor">#6b199f</color>
+  <color name="themeDarkColor">#6b199f</color>
+  <color name="themefaintColor">#eac5f8</color>
       
 	<color name="tabMedium">#2B2B2B</color>
 	<color name="tabDark">#000000</color>

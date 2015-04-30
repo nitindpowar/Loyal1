@@ -232,24 +232,25 @@
             android:textColor="@color/status_text"
             android:textSize="14sp"/>
        
-<!--        <LinearLayout -->
-<!--         android:id="@+id/capture" -->
-<!--         android:layout_width="match_parent" -->
-<!--         android:layout_height="wrap_content" -->
-<!--         android:clickable="true" -->
-<!--         android:gravity="center" -->
-<!--         android:onClick="captureImage"         -->
-<!--         android:layout_gravity="bottom|center_horizontal" -->
-<!--         android:orientation="horizontal" > -->
+       <LinearLayout
+           android:id="@+id/capture"
+           android:layout_width="match_parent"
+           android:layout_height="120dp"
+           android:layout_gravity="bottom|right"
+           android:clickable="true"
+           android:gravity="center|right"
+           android:onClick="captureImage"
+           android:orientation="horizontal" >
 
-<!--         <Button -->
-<!--             android:id="@+id/frontside" -->
-<!--             android:layout_width="wrap_content" -->
-<!--             android:layout_height="wrap_content" -->
-<!--             android:gravity="center" -->
-<!--             android:padding="10dp" -->
-<!--             android:text="won't scan" -->
-<!--             android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+           <Button
+               android:id="@+id/frontside"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:padding="20dp"
+               android:text="won&apos;t scan"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+
 <!--         <Button -->
 <!--              android:id="@+id/backside" -->
 <!--             android:layout_width="wrap_content" -->
@@ -260,6 +261,6 @@
 <!--             android:textAppearance="?android:attr/textAppearanceLarge" /> -->
         
 <!--         </LinearLayout> -->
-<!--     </LinearLayout> -->
+    </LinearLayout>
 
 </FrameLayout>

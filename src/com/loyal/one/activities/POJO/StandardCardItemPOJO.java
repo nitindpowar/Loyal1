@@ -8,6 +8,10 @@ public class StandardCardItemPOJO {
 
 	private String cardName;
 	private String imageName;
+	
+	
+	
+	
 	@Override
 	public String toString() {
 		return "StandardCardItemPOJO [cardName=" + cardName + ", Image="
@@ -29,6 +33,9 @@ public class StandardCardItemPOJO {
 		super();
 		this.cardName = cardName;
 		imageName = image;
+	}
+	public StandardCardItemPOJO() {
+		// TODO Auto-generated constructor stub
 	}
 	
 	
